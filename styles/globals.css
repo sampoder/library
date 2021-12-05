@@ -1,0 +1,79 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  border: 9px solid #8A584C;
+  margin: 0;
+  min-height: calc(100vh - 18px);
+  background: #8A584C;
+}
+
+.container{
+  background: #000024;
+  border-radius: 4px;
+  padding: 4px 0px;
+  height: calc(100vh - 26px);
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+}
+
+.book-container{
+  height: calc(((100vh - 26px) / 10));
+  border-bottom: 4.5px solid #8A584C;
+  padding: 0.2vw 0.2vw 0px 0.2vw;
+}
+
+.book{
+  background: green;
+  border-radius: 1.5px;
+  width: 100%;
+  height: 100%;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 2.7px;
+  line-height: 1;
+  text-align: left;
+  padding-top: 2.4px;
+  padding-bottom: 2.4px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  padding-right: 1.4px;
+  padding-left: 1.4px;
+  opacity: 0.7;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  width: 40vw;
+  background: rgba(0, 0, 10, 0.8);
+  color: white;
+  border-radius: 8px;
+  padding: 18px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+h1{
+  margin-block-start: 0.0em;
+  margin-block-end: 0.10em;
+}
